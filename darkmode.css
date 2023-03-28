@@ -1,0 +1,20 @@
+
+.dark-mode{
+    background: black;
+}
+.light-mode{
+    background: white;
+}
+#icon img{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    /* background: white; */
+    border-radius: 20px;
+}
+.about img{
+    position: absolute;
+    right: 1px;
+    bottom: 40px;
+    border-radius: 20px;
+}
