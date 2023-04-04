@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Shojumaru&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.name{
+    height: 20vh;
+    width: 100%;
+    /* background: #000; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+h2{
+    cursor: pointer;
+    justify-text: center;  
+}
+h4{
+    position: absolute;
+    top: 30px;
+    margin: 20px 0 0 0;
+    animation: color-change 6s linear infinite;
+}
+h2:hover{
+    transform: translate(1.5);
+    color: red;
+    font-size:2rem;
+}
+.layout{
+    height: 95vh;
+    display:grid;
+    /* background: limegreen; */
+    /* justify-content: center;
+    align-items: center; */
+    row-gap:  198px;grid-template-columns: auto auto auto auto ;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+.back-video{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    width: 100%;
+}
+.github{
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+    overflow:visible;
+}
+.github a{
+    /* position:relative; */
+    text-decoration: none;  
+    position: relative;
+    top: 40%;
+    left: 7%;
+    color: whitesmoke;
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+.github :hover{
+   color: red;
+   font-size:1.4em;
+ }
+.linkedin{
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+    overflow:visible;
+}
+.linkedin a{
+    text-decoration: none;  
+    position: relative;
+    top: 40%;
+    left: -5%;
+    color: whitesmoke;
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+.linkedin :hover{
+    color: red;
+    font-size: larger;
+    font-size:1.4em;
+ }
+.gmail{
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+    overflow:visible;
+}
+.gmail a{
+    text-decoration: none;  
+    position: relative;
+    top: 40%;
+    left: 13%;
+    color: whitesmoke;
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+.gmail :hover{
+    color: red;
+    font-size: larger;
+    font-size:1.4em;
+ }
+.discord{
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+    overflow:visible;
+}
+.discord a{
+    text-decoration: none;  
+    position: relative;
+    overflow: visible;
+    top: 40%;
+    left: -2%;
+    color: whitesmoke;
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+.discord :hover{
+    color: red;
+    font-size: larger;
+    font-size:1.4em;
+ }
+ @keyframes border-change {
+    0%{
+        border: 2px solid rgb(224, 14, 14);
+    }
+    33.3%{
+        border: 2px solid green;
+    }
+    66.66%{
+        border: 2px solid blue;
+    }
+    100%{
+        border: 2px solid blue;
+    }
+ }
+ @keyframes color-change {
+    0%{
+        color: rgb(224, 14, 14);
+    }
+    33.3%{
+        color: green;
+    }
+    66.66%{
+        color: blue;
+    }
+    100%{
+        color: blue;
+    }
+ }
+ /* media querry*/
+@media screen and (min-width: 412px){
+    .name{
+        height: 10vh;
+        width: 100%;
+        /* background: #000; */
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Shojumaru', cursive;
+        font-size: larger;
+    }
+    h2{
+        cursor: pointer;
+        justify-text: center;  
+    }
+    h4{
+        position: absolute;
+        top: 80px;
+        margin: 20px 0 0 0;
+        animation: color-change 6s linear infinite;
+    }
+    h2:hover{
+        transform: translate(1.5);
+        color: red;
+        font-size:2rem;
+    }
+    .layout{
+        height: 50vh;
+        display:grid;
+        /* background: limegreen; */
+        /* justify-content: center;
+        align-items: center; */
+        row-gap:  10px;
+        grid-template-columns: auto auto auto auto ;
+        justify-items: center;
+        align-items: center;
+    }
+    .back-video{
+        position: absolute;
+        right:0;
+        bottom:0;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+    }
+    .github{
+        width: 100px;
+        height: 100px;
+        /* background: red; */
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid white;
+        animation: border-change 6s linear infinite;
+        overflow:visible;
+    }
+    .github a{
+        /* position:relative; */
+        text-decoration: none;  
+        position: relative;
+        top: 10%;
+        left: 7%;
+        color: whitesmoke;
+        font-family: 'Shojumaru', cursive;
+        font-size: larger;
+    }
+    .github :hover{
+       color: red;
+       font-size:1.4em;
+     }
+    .linkedin{
+        width: 100px;
+        height: 100px;
+        /* background: red; */
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid white;
+        animation: border-change 6s linear infinite;
+        overflow:visible;
+    }
+    .linkedin a{
+        text-decoration: none;  
+        position: relative;
+        top: 40%;
+        left: -5%;
+        color: whitesmoke;
+        font-family: 'Shojumaru', cursive;
+        font-size: larger;
+    }
+    .linkedin :hover{
+        color: red;
+        font-size: larger;
+        font-size:1.4em;
+     }
+    .gmail{
+        width: 100px;
+        height: 100px;
+        /* background: red; */
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid white;
+        animation: border-change 6s linear infinite;
+        overflow:visible;
+    }
+    .gmail a{
+        text-decoration: none;  
+        position: relative;
+        top: 40%;
+        left: 13%;
+        color: whitesmoke;
+        font-family: 'Shojumaru', cursive;
+        font-size: larger;
+    }
+    .gmail :hover{
+        color: red;
+        font-size: larger;
+        font-size:1.4em;
+     }
+    .discord{
+        width: 100px;
+        height: 100px;
+        /* background: red; */
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid white;
+        animation: border-change 6s linear infinite;
+        overflow:visible;
+    }
+    .discord a{
+        text-decoration: none;  
+        position: relative;
+        overflow: visible;
+        top: 40%;
+        left: -2%;
+        color: whitesmoke;
+        font-family: 'Shojumaru', cursive;
+        font-size: larger;
+    }
+    .discord :hover{
+        color: red;
+        font-size: larger;
+        font-size:1.4em;
+     }
+    
+}
