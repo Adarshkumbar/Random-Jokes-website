@@ -18,3 +18,12 @@
     bottom: 40px;
     border-radius: 20px;
 }
+@media screen and (min-width:412px) {
+    #icon img{
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        /* background: white; */
+        border-radius: 20px;
+    }
+}
