@@ -138,8 +138,7 @@ h1{
 	transition: transform 0.5s linear;
 }
 
-.button:hover::after,
-.button:focus::after {
+.button:hover::after {
 	opacity: 1;
 }
 
