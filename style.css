@@ -205,7 +205,7 @@ h1:focus::before {
 	transform: perspective(1em) rotateX(40deg) scale(1.5, 0.6);
 	transition: transform 0.5s linear;
 } */
-@media screen and (min-width:412px) {
+@media screen and (min-width:360px) {
 	body{
 		height: 100vh;
 		overflow: hidden;
@@ -214,10 +214,10 @@ h1:focus::before {
 		height: 15vh;
 	}
 	.button{
-		top: 70vh;
+		top: 75vh;
 		left: 10px;
 		right: 10px;
-		height: 10vh;
+		height: 14vh;
 	}
 	.box{
 		width: 100vw;	
